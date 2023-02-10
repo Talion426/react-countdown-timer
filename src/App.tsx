@@ -1,11 +1,10 @@
 import React from "react";
+import { Wrapper } from "ui";
 
-function App() {
+export const App = () => {
     return (
-        <div>
-            <header></header>
-        </div>
+        <Wrapper>
+            <div></div>
+        </Wrapper>
     );
-}
-
-export default App;
+};
